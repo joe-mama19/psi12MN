@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document PSI 2019/2020</title>
+
+    <script
+        src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+        crossorigin="anonymous">       
+    </script>
+
+
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("body").css("font-style","italic");
+            var nome=$("#prof").text();
+            $("#prof")
+                .css("text-decoration","underline")
+                .css({"color":"white","background-color":"black","border": "2px solid orange"})
+               
+                .text("Professor"+nome);
+            $(".alunos").css("font-weight","bold");   
+        });
+     $(window).on('load',function(){
+         $("img").attr("src","https://uploads.disquscdn.com/images/4b83a67183732a3d91962ebb9b0b097294d5f29652a0862ceec4abdf4528bf62.jpg");
+     });
+    </script>
+</head>
+<body>
+    <img src="http://www.clipartbest.com/cliparts/jTx/zz6/jTxzz6KLc.png">
+   
+    <h1><b><p id="prof"> Tiago </p></b></h1>
+    <ul class="alunos">
+        <li>Catarina</li>
+        <li>Tibúrcio</li>
+        <li>Joaquim</li>
+        <li>Vera</li>
+        <li>Natércio</li>
+        <li>Marta</li>
+        <li>aluno1</li>
+        <li>aluno2</li>
+        <li>aluno3</li>
+        <li>aluno4</li>
+        <li>aluno5</li>
+        <li>aluno6</li>
+        <li>aluno7</li>
+        <li>Diogo</li>
+        <li>aluno9</li>
+        <li>aluno10</li>
+</body>
+</html>
